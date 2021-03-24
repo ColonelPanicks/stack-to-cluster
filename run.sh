@@ -2,7 +2,7 @@
 
 read -p "Cluster name: " clustername
 read -p "Shared data storage dir: " storagedir
-read -p "Node list (command separated): " nodes
+read -p "Node list (space separated): " nodes
 
 # Variables
 topdir=$storagedir/openflighthpc
