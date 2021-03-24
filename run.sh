@@ -9,7 +9,8 @@ topdir=$storagedir/openflighthpc
 packagedir=$topdir/packages
 
 # Prep
-mkdir -p $packagedir
+sudo mkdir -p $packagedir
+sudo chmod 777 $packagedir
 
 # Download user-suite packages
 sudo yum install https://repo.openflighthpc.org/pub/centos/7/openflighthpc-release-latest.noarch.rpm
