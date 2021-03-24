@@ -12,6 +12,7 @@ Turn a group of nodes into an OpenFlight cluster.
 
 As user with sudo privileges: 
 ```
-curl https://raw.githubusercontent.com/ColonelPanicks/stack-to-cluster/main/run.sh |bash
+wget https://raw.githubusercontent.com/ColonelPanicks/stack-to-cluster/main/run.sh 
+bash run.sh
 ```
 
